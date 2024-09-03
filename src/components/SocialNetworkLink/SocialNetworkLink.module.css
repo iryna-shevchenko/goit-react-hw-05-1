@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.container li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  transition: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.8;
+}
+
+.container li:hover,
+.container li:focus {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.container a {
+  display: flex;
+  color: white;
+  font-size: 22px;
+}
+
+.facebook {
+  background-color: #0866ff;
+}
+
+.instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.telegram {
+  background-color: #138ac5;
+}

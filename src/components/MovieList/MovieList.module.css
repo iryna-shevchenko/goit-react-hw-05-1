@@ -1,0 +1,56 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 17px;
+  row-gap: 10px;
+}
+
+.item {
+  position: relative;
+  width: 236px;
+  overflow: hidden;
+}
+
+.poster {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  transition: transform 1200ms;
+}
+
+.item:hover img {
+  transform: scale(1.05);
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: grey;
+  transition: color 700ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover {
+  color: #20bcc6;
+}
+
+.details {
+  height: 48px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 2px 10px;
+  background-color: rgba(21, 57, 76, 0.97);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #20bcc6;
+  font-size: 14px;
+}

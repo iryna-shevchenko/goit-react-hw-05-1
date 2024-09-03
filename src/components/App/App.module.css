@@ -1,0 +1,46 @@
+h1 {
+  font-size: 26px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 16px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(21, 57, 76, 0.97);
+}
+
+.headerWrap {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.socialNavWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}

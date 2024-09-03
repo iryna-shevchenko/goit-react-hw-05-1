@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  top: 100px;
+  position: relative;
+}
+
+.img {
+  display: flex;
+  min-width: 600px;
+  height: 425px;
+  background-image: url(../../assets/404-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 375px),
+  screen and (min-resolution: 2dppx) and (min-width: 375px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
+  .img {
+    background-image: url('../../assets/404-img.png');
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: grey;
+}
+
+.description h2 {
+  color: #20bcc6;
+  font-size: 30px;
+}
+
+.description ul {
+  margin-top: 4px;
+  padding-left: 40px;
+  list-style-type: disc;
+}
+
+.backLink {
+  padding: 8px 24px;
+  width: fit-content;
+  background-color: #15384c;
+  border-radius: 50px;
+  color: #ffffff;
+  transition: color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backLink:hover,
+.backLink:focus {
+  color: #20bcc6;
+}

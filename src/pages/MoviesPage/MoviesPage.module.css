@@ -1,0 +1,53 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.searchContainer {
+  display: flex;
+}
+
+.searchResult {
+  color: grey;
+  position: absolute;
+}
+
+.spanText {
+  color: #20bcc6;
+}
+
+.loadingError {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.toast {
+  position: absolute;
+  top: 74px;
+  left: 940px;
+  color: #b94f4f;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.backLink {
+  position: absolute;
+}
+
+.searchForm {
+  margin: 0 auto;
+  position: relative;
+}
+
+.movieList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
